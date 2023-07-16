@@ -5,9 +5,8 @@ const Header = () => {
   return (
     <div className="navbar navbar-expand-md bg-dark navbar-dark ">
         <div className="container">
-            <a href="#" className="navbar-brand">
-                <img  id= "logo" src={logo} alt="" />
-            </a>
+             <a href="#" className="navbar-brand"><img  id= "logo" src={logo} alt="" /></a> 
+  
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -25,9 +24,9 @@ const Header = () => {
                     <li className="nav-item"><a href="#faq" className="nav-link">Ask Me</a></li>
                     {/* <li className="nav-item"><a href="./index-ar.html" className="nav-link">Hydropro</a></li> */}
                     <li><button data-text="Awesome" className="button">
-                    <span className="actual-text">&nbsp;Hydropro&nbsp;</span>
-                    <span className="hover-text" aria-hidden="true">&nbsp;Hydropro&nbsp;</span>
-                        </button></li>
+                        <span className="actual-text">&nbsp;Hydropro&nbsp;</span>
+                        <span className="hover-text" aria-hidden="true">&nbsp;Hydropro&nbsp;</span>
+                    </button></li>
                 </ul>
             </div>
         </div>

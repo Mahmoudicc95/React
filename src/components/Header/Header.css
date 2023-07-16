@@ -1,10 +1,11 @@
 #logo {
     width: 200px;
+    left: 0;
 }
 
 /* === removing default button style ===*/
 .button {
-    margin: 0;
+    margin:  7% 0;
     height: auto;
     background: transparent;
     padding: 0;
@@ -19,7 +20,7 @@
     --fs-size: 2em;
     letter-spacing: 3px;
     text-decoration: none;
-    font-size: var(--fs-size);
+    font-size: var(--fs-4);
     font-family: "Arial";
     position: relative;
     text-transform: uppercase;
