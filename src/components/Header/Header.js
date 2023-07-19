@@ -18,7 +18,7 @@ const Header = () => {
                     </NavItem>
 
                     <NavItem>
-                        <a href="#features" className="nav-link">Features</a>
+                        <a href="#features" className="nav-link">About</a>
                     </NavItem>
 
                     <NavItemDropDown>
@@ -32,6 +32,7 @@ const Header = () => {
                     <NavItem>
                         <a href="#faq" className="nav-link">Ask Me</a>
                     </NavItem>
+
                     <NavItem>
                         <a href='#'>
                         <button data-text="Awesome" className="button">
