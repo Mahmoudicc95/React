@@ -27,22 +27,19 @@ const Header = () => {
                             <li><a href="#learn" className="dropdown-item">Learn Bootstrap</a></li>
                             <li><a href="#next" className="dropdown-item">Where to go next</a></li>
                         </ul>
-
                     </NavItemDropDown>
                     
                     <NavItem>
-
                         <a href="#faq" className="nav-link">Ask Me</a>
-
                     </NavItem>
-                    <li>
+                    <NavItem>
                         <a href='#'>
                         <button data-text="Awesome" className="button">
                         <span className="actual-text">&nbsp;Hydropro&nbsp;</span>
                         <span className="hover-text" aria-hidden="true">&nbsp;Hydropro&nbsp;</span>
                         </button>
                         </a>
-                    </li>
+                    </NavItem>
                     
                 </ul>
             </div>
